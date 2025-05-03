@@ -61,12 +61,13 @@ Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
 
-
-
-
-
-
-
+![Alt text](img/ex41.png)
+![Alt text](img/ex42.png)
+![Alt text](img/ex43.png)
+![Alt text](img/ex44.png)
+![Alt text](img/ex45.png)
+![Alt text](img/ex46.png)
+![Alt text](img/ex47.png)
 ##dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
@@ -80,7 +81,8 @@ Calculate C class domain network ranges and perform whois queries on them (threa
 Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
-
+![Alt text](img/ex48.png)
+![Alt text](img/ex49.png)
 
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
@@ -89,6 +91,7 @@ Username guessing tool primarily for use against the default Solaris SMTP servic
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
 select any username in the first column of the above file and check the same
+![Alt text](img/ex410.png)
 
 
 #Telnet for smtp enumeration
@@ -97,8 +100,8 @@ telnet <host address> 25 to connect
 and issue appropriate commands
   
  ##Output
-  
-  
+![Alt text](img/ex411.png)
+
 
 ## nmap –script smtp-enum-users.nse <hostname>
 
@@ -106,7 +109,7 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
-
+![Alt text](img/ex412.png)
 
 ## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
